@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  react-app:
+    container_name: react-app-container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: react-app-image
+    ports:
+      - "5173:5173"
+    environment:
+      - NODE_ENV=production
+    restart: always

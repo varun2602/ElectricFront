@@ -1,0 +1,39 @@
+.gradient-custom {
+    /* Setting background image */
+    /* background-image: url('https://wallpaper-house.com/data/out/8/wallpaper2you_252263.jpg'); */
+    /* background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+
+    
+    
+   /* Setting background properties */
+  /* background-size: cover; /* Ensures the image covers the entire element */
+  
+}
+ApplyMain {
+  /* background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Calibri', sans-serif;
+}
+
+
+    
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }

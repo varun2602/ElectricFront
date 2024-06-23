@@ -1,0 +1,26 @@
+Navbar bootstrap link:
+https://bbbootstrap.com/snippets/bootstrap-colorful-navbar-animation-45860002
+
+Bootstrap login form:
+https://bbbootstrap.com/snippets/animated-login-form-95290954
+
+Bootstrap Table link:
+https://bbbootstrap.com/snippets/static-table-checkboxes-and-fixed-header-43151252
+
+Css body settings for color leak due to body:
+1)Change the body name to wrapper div component name 
+2) justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+
+    Pagination Reference:
+    https://bestjquery.com/tutorial/pagination/demo129/
+
+    Update modal trigger button:  <div className="text-center">
+
+  <a href="#myModal" className="trigger-btn" data-toggle="modal">Click to Open Login Modal</a>
+</div>
+Update modal referencce:https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=elegant-modal-login-form-with-icons
